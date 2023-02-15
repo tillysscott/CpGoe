@@ -10,6 +10,7 @@ _See_ ManualCpG.sh
 
 ## Notos
 https://github.com/cche/notos  
+Bulla, I., Aliaga, B., Lacal, V., Bulla, J., Grunau, C. and Chaparro, C., 2018. Notos-a galaxy tool to analyze CpN observed expected ratios for inferring DNA methylation types. BMC bioinformatics, 19(1), pp.1-13.
 #### Installation
 ```
 git clone https://github.com/cche/notos.git
@@ -24,4 +25,13 @@ Requires list of genomes
 ls *.fa > faList.txt
 #remove ".fa"
 vim faList.txt # :%s/.fa//g :x
+```
+
+### Calculate mean CpG o/e from notos
+```
+wc -l $genome_cpgoe.csv
+awk '{SUM+=$2}END{print SUM}' $genome_cpgoe.csv > $genome_sum_cpg
+vim $genome_sum_cpg # after sum value, tab, then add wc -l number
+awk '{print "Consensus CpG", "\t", ($1/$2)}' $genome_sum_cpg > $genome_mean_cpg.txt
+less $genome_mean_cpg.txt
 ```
