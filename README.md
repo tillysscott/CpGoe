@@ -13,7 +13,7 @@ https://github.com/cche/notos
 #### Installation
 ```
 git clone https://github.com/cche/notos.git
-chmod u+xq
+chmod u+x notos
 ```
 
 ## Notos Loop
