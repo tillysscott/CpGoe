@@ -6,8 +6,8 @@
 
 export genome="Genome"
 
-perl ~/sharedscratch/apps/notos-master/notos-master/CpGoe.pl -f $genome.fa -a 1 -c CpG -o $genome.csv
+perl ~/path/to/notos-master/CpGoe.pl -f $genome.fa -a 1 -c CpG -o $genome.csv
 
 module load r
 
-Rscript ~/sharedscratch/apps/notos-master/notos-master/KDEanalysis.r "$genome" $genome.csv -B
+Rscript ~/path/to/notos-master/KDEanalysis.r "$genome" $genome.csv -B
