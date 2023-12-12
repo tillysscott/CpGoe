@@ -10,7 +10,8 @@ _See_ ManualCpG.sh
 
 ## Notos
 https://github.com/cche/notos  
-Bulla, I., Aliaga, B., Lacal, V., Bulla, J., Grunau, C. and Chaparro, C., 2018. Notos-a galaxy tool to analyze CpN observed expected ratios for inferring DNA methylation types. BMC bioinformatics, 19(1), pp.1-13.
+Bulla, I., Aliaga, B., Lacal, V., Bulla, J., Grunau, C. and Chaparro, C., 2018. Notos-a galaxy tool to analyze CpN observed expected ratios for inferring DNA methylation types. BMC bioinformatics, 19(1), pp.1-13.  
+_See_ notos.sh
 #### Installation
 ```
 git clone https://github.com/cche/notos.git
@@ -18,7 +19,7 @@ chmod u+x notos
 ```
 
 ## Notos Loop
-_See_ NotosLoop.sh  
+_See_ notosLoop.sh  
 https://github.com/cche/notos  
 Requires list of genomes
 ```
