@@ -18,6 +18,7 @@ chmod u+x notos
 ```
 
 ## Notos Loop
+_See_ NotosLoop.sh
 https://github.com/cche/notos  
 Requires list of genomes
 ```
@@ -25,6 +26,7 @@ Requires list of genomes
 ls *.fa > faList.txt
 #remove ".fa"
 vim faList.txt # :%s/.fa//g :x
+  #alternatively use sed to perform the same action
 ```
 
 ### Calculate mean CpG o/e from notos
