@@ -18,7 +18,7 @@ chmod u+x notos
 ```
 
 ## Notos Loop
-_See_ NotosLoop.sh
+_See_ NotosLoop.sh  
 https://github.com/cche/notos  
 Requires list of genomes
 ```
